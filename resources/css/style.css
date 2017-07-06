@@ -116,6 +116,12 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  header {
+    height:48px;
+  }
+}
+
 /* Sign Up Section */
 
 #sign-up-section {
@@ -213,10 +219,10 @@ header .mobile {
 
 @media only screen and (max-width: 450px) {
   #sign-up-section {
-    height: 20rem;
-        align-items: center;
-    justify-content: center;
-    display: flex;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
